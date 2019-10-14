@@ -1,8 +1,11 @@
 import * as React from 'react'
+import * as dayjs from 'dayjs'
 
 export interface LayoutProps {
   children: React.ReactNode
 }
+
+const year = (dayjs().year())
 
 const Layout = (props: LayoutProps) => (
   <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
@@ -12,7 +15,7 @@ const Layout = (props: LayoutProps) => (
     </header>
     <main style={{ flex: '1 1 0' }}>{props.children}</main>
     <footer style={{ flex: '0 0 auto', textAlign: 'center' }}>
-      <p>&copy; Copyright 2019, Okuto Oyama</p>
+      <p>&copy; Copyright {year}, Okuto Oyama</p>
     </footer>
   </div>
 )
