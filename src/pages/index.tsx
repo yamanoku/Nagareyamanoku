@@ -1,5 +1,31 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import { Helmet } from 'react-helmet'
+import { graphql } from 'gatsby'
+
+interface IndexPageProps {
+  data: {
+    site: {
+      siteMetadata: {
+        title: string
+        description: string
+        siteUrl: string
+      }
+    }
+  }
+}
+
+export const pageQuery = graphql`
+  query IndexQuery {
+    site {
+      siteMetadata {
+        title
+        description
+        siteUrl
+      }
+    }
+  }
+`
 
 const Emergency = () => (
   <section>
@@ -25,7 +51,7 @@ const Emergency = () => (
 
 const Pediatrics = () => (
   <section>
-    <h3>小児科まとめ（WIP）</h3>
+    <h3>小児科まとめ</h3>
     <h4>夜間、休日・祝日</h4>
     <a
       href="http://www.nagareyama-med.com/practice/practice01.html"
@@ -37,10 +63,25 @@ const Pediatrics = () => (
   </section>
 )
 
-export default () => (
-  <Layout>
-    <h2>便利情報</h2>
-    <Emergency />
-    <Pediatrics />
-  </Layout>
-)
+export default class IndexPage extends React.Component<IndexPageProps> {
+  public render() {
+    const siteName = this.props.data.site.siteMetadata.title
+    const siteDesc = this.props.data.site.siteMetadata.description
+    const siteUrl = this.props.data.site.siteMetadata.siteUrl
+    return (
+      <Layout>
+        <Helmet>
+          <title>{siteName}</title>
+          <meta name="description" content={siteDesc} />
+          <meta property="og:title" content={siteName} />
+          <meta property="og:description" content={siteDesc} />
+          <meta property="og:url" content={siteUrl} />
+          <meta property="twitter:card" content="summary" />
+        </Helmet>
+        <h2>情報まとめ</h2>
+        <Emergency />
+        <Pediatrics />
+      </Layout>
+    )
+  }
+}

@@ -3,16 +3,14 @@ import PropTypes from "prop-types";
 
 export default function HTML(props) {
   return (
-    <html {...props.htmlAttributes}>
+    <html lang="ja" {...props.htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+          content="width=device-width, initial-scale=1"
         />
-        <title>Nagareyamanoku</title>
-        <meta name="description" content="流山市に住むyamanokuが見るページ" />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&amp;display=optiona"
