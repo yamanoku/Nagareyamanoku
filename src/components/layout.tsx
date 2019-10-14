@@ -5,7 +5,7 @@ export interface LayoutProps {
   children: React.ReactNode
 }
 
-const year = (dayjs().year())
+const year = dayjs().year()
 
 const Layout = (props: LayoutProps) => (
   <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
