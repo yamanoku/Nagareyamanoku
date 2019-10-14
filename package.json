@@ -5,13 +5,16 @@
   "author": "yamanoku <0910yama@gmail.com>",
   "dependencies": {
     "@types/node": "^8.0.7",
-    "@types/react": "15.6.27",
-    "@types/react-dom": "0.14.23",
+    "@types/react": "16.9.5",
+    "@types/react-dom": "16.9.1",
+    "@types/react-helmet": "5.0.11",
     "gatsby": "^2.0.0",
     "gatsby-link": "^2.0.0",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-typescript": "^2.0.0",
-    "modern-normalize": "0.5.0"
+    "modern-normalize": "0.5.0",
+    "react-dom": "16.10.2",
+    "react-helmet": "5.2.1"
   },
   "keywords": [
     "gatsby, typescript"
