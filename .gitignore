@@ -62,4 +62,5 @@ typings/
 
 # gatsbyJS file
 .cache/
-public/
+public/*
+!_redirects
