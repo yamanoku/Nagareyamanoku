@@ -32,6 +32,11 @@
     "lint-staged": "9.4.2",
     "prettier": "1.18.2"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*.ts*": [
       "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write",
