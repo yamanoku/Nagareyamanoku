@@ -164,3 +164,7 @@ blockquote {
   margin: var(--rhythm) 0 var(--rhythm) var(--rhythm);
   padding: 0 var(--rhythm);
 }
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
+}
