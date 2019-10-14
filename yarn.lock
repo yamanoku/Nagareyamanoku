@@ -123,18 +123,13 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react@*":
+"@types/react@*", "@types/react@16.9.5":
   version "16.9.5"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.5.tgz#079dabd918b19b32118c25fd00a786bb6d0d5e51"
   integrity sha512-jQ12VMiFOWYlp+j66dghOWcmDDwhca0bnlcTxS4Qz/fh5gi6wpaZDthPEu/Gc/YlAuO87vbiUXL8qKstFvuOaA==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
-
-"@types/react@15.6.27":
-  version "15.6.27"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.6.27.tgz#3f858b4fe72715800664556c996fdc2b7260bf78"
-  integrity sha512-eMnQ2EiP4xCR8OG4txud8IkZSs4NiO8ZusZk0kyGSbvxlh4F3HmlzOjJA/4LeR6+s7RdsyxZ69LCd962UEDxOg==
 
 "@types/tmp@^0.0.32":
   version "0.0.32"
