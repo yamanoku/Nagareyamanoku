@@ -7,15 +7,17 @@ export default function HTML(props) {
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {props.headComponents}
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&amp;display=optiona"
         />
-        {props.headComponents}
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href="https://yamanoku.net/favicon.ico"
+        ></link>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
