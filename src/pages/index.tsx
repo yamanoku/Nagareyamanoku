@@ -73,10 +73,10 @@ export default class IndexPage extends React.Component<IndexPageProps> {
         <Helmet>
           <title>{siteName}</title>
           <meta name="description" content={siteDesc} />
+          <meta property="twitter:card" content="summary" />
           <meta property="og:title" content={siteName} />
           <meta property="og:description" content={siteDesc} />
           <meta property="og:url" content={siteUrl} />
-          <meta property="twitter:card" content="summary" />
         </Helmet>
         <h2>情報まとめ</h2>
         <Emergency />
