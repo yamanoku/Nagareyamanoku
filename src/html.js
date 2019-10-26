@@ -11,7 +11,7 @@ export default function HTML(props) {
         {props.headComponents}
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&amp;display=optiona"
+          href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&amp;display=optional"
         />
         <link
           rel="icon"
