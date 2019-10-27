@@ -7,5 +7,6 @@ yamanokuが参考にする流山市にまつわるまとめページ
 ## Contents
 - 流山市避難所
 - 小児科まとめ
+- ご飯まとめ
 
 https://www.city.nagareyama.chiba.jp/
