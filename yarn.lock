@@ -4518,10 +4518,10 @@ gatsby-core-utils@^1.0.14:
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.14.tgz#81b20a88a9746bb5ba1c63041af229c2abb8b9f3"
   integrity sha512-qkKo+icUadezN+1jz72K608tYEi1iMmpNWEoX5ZPpuYtjAHSTnxMVsuoaGWXzqp11z5hruiUmD8WC9WtEghaVw==
 
-gatsby-core-utils@^1.0.15:
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.15.tgz#cca10e6e6bafbbfeb9fda70639a7af6c673f9d74"
-  integrity sha512-Sn94r4EEKAjngJqw761wBYkbYhAjY61cheFXSdB84m+neohislRH6a4QjW/0Rc3M36C0n5f6D8x4ZsVLdeBrcg==
+gatsby-core-utils@^1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.16.tgz#a725b4628b2fff542dfbf93b3ede9f79a66a3502"
+  integrity sha512-iyYLBzk76t4xibMp/zGbRTV1VEzvb8cfAm5DUkaafZE70QQ7WmstiIig85OnmTIhkqjw5g+Hxk+Q2IjxmTYtUw==
 
 gatsby-graphiql-explorer@^0.2.24:
   version "0.2.24"
@@ -4553,24 +4553,24 @@ gatsby-page-utils@^0.0.26:
     micromatch "^3.1.10"
     slash "^3.0.0"
 
-gatsby-plugin-manifest@2.2.23:
-  version "2.2.23"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.2.23.tgz#7ee152f3758645ef4ace2c06f446dc4b2f058730"
-  integrity sha512-qlxvKlc6fBRGRKqwv5MYVc/DCx2RoOOs2GZVHUN7tN92Ma3kYw3Roce0iuxX+QCyjPT1lyMaii1Rxrq/2QSMTA==
+gatsby-plugin-manifest@2.2.24:
+  version "2.2.24"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.2.24.tgz#66bbc1007be6dd5b2d30a832e45b2df96253aad5"
+  integrity sha512-kiMkeJewUVk2K8v3TZVpGpSIrjkxQHw6Fl6jNxKxifzC51PELHxNcjCtdn/dMj1KAnl8kQfma3QHY/auG5gPtw==
   dependencies:
     "@babel/runtime" "^7.6.3"
-    gatsby-core-utils "^1.0.15"
+    gatsby-core-utils "^1.0.16"
     semver "^5.7.1"
     sharp "^0.23.1"
 
-gatsby-plugin-offline@3.0.16:
-  version "3.0.16"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.0.16.tgz#5629fd36b42673ce9f703b289f96f43f60d3914f"
-  integrity sha512-OM8zdPet5vWy17jW8gcUWoOh/MdfXfT8zuPKgeiO32ESryoEQsQW7gZSKBSaXutyApS+ndLtNxygDwm7Ma1anA==
+gatsby-plugin-offline@3.0.17:
+  version "3.0.17"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.0.17.tgz#578cc008b53639a4c4f3a0d811fba0b027cb6c53"
+  integrity sha512-5oGJ/5eSiYHsmFGRjdR5vyPXD4MLDpPGMTflJCCB1436zF+go0/C36Rt4VFnQuFaT1KpCRioS01+Gxj4zWaIyg==
   dependencies:
     "@babel/runtime" "^7.6.3"
     cheerio "^1.0.0-rc.3"
-    glob "^7.1.4"
+    glob "^7.1.5"
     idb-keyval "^3.2.0"
     lodash "^4.17.15"
     slash "^3.0.0"
@@ -4869,6 +4869,18 @@ glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4:
   version "7.1.4"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.4.tgz#aa608a2f6c577ad357e1ae5a5c26d9a8d1969255"
   integrity sha512-hkLPepehmnKk41pUGm3sYxoFs/umurYfYJCerbXEyFIWcAzvpipAgVkBqqT9RBKMGjnq6kMuyYwha6csxbiM1A==
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
+glob@^7.1.5:
+  version "7.1.5"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.5.tgz#6714c69bee20f3c3e64c4dd905553e532b40cdc0"
+  integrity sha512-J9dlskqUXK1OeTOYBEn5s8aMukWMwWfs+rPTn/jn50Ux4MNXVhubL1wu/j2t+H4NVI+cXEcCaYellqaPVGXNqQ==
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
