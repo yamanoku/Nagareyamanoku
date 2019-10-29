@@ -63,6 +63,29 @@ const Pediatrics = () => (
   </section>
 )
 
+const Eating = () => (
+  <section>
+    <h3>ご飯</h3>
+    <ul>
+      <li>
+        <a
+          href="https://www.bronco.co.jp/shop/chiba/ootakanomori_ten/"
+          target="_blank"
+          rel="noopener"
+        >
+          おおたかの森店（千葉県流山市市野谷）
+          ステーキ・ハンバーグのブロンコビリー
+        </a>
+      </li>
+      <li>
+        <a href="http://www.y-micchan.com/" target="_blank" rel="noopener">
+          柏市　流山市　焼肉　焼肉みっちゃん｜ホーム
+        </a>
+      </li>
+    </ul>
+  </section>
+)
+
 export default class IndexPage extends React.Component<IndexPageProps> {
   public render() {
     const siteName = this.props.data.site.siteMetadata.title
@@ -82,6 +105,7 @@ export default class IndexPage extends React.Component<IndexPageProps> {
         <h2>情報まとめ</h2>
         <Emergency />
         <Pediatrics />
+        <Eating />
       </Layout>
     )
   }
