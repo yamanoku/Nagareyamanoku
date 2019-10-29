@@ -11,7 +11,7 @@
     "dayjs": "1.8.16",
     "gatsby": "^2.0.0",
     "gatsby-link": "^2.0.0",
-    "gatsby-plugin-manifest": "2.2.25",
+    "gatsby-plugin-manifest": "2.2.26",
     "gatsby-plugin-offline": "3.0.17",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-typescript": "^2.0.0",
