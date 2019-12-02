@@ -5,7 +5,7 @@
   "author": "yamanoku <0910yama@gmail.com>",
   "dependencies": {
     "@types/node": "^8.0.7",
-    "@types/react": "16.9.13",
+    "@types/react": "16.9.14",
     "@types/react-dom": "16.9.4",
     "@types/react-helmet": "5.0.14",
     "dayjs": "1.8.17",
