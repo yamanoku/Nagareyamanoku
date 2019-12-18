@@ -8,7 +8,7 @@
     "@types/react": "16.9.16",
     "@types/react-dom": "16.9.4",
     "@types/react-helmet": "5.0.14",
-    "dayjs": "1.8.17",
+    "dayjs": "1.8.18",
     "gatsby": "^2.18.7",
     "gatsby-link": "^2.2.25",
     "gatsby-plugin-manifest": "2.2.33",
