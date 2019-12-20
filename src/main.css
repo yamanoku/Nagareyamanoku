@@ -1,0 +1,23 @@
+body {
+  font-family: "Noto Sans", "Noto Sans CJK JP", "Noto Sans JP", sans-serif;
+  margin: 0;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+header {
+  width: 100%;
+  max-width: 80ch;
+  margin: auto;
+  padding: 0 var(--rhythm);
+  flex: 0 0 auto;
+}
+main {
+  width: 100%;
+  flex: 1 1 0;
+}
+footer {
+  flex: 0 0 auto;
+  text-align: center;
+}

@@ -1,49 +1,21 @@
 {
-  "name": "nagareyamanoku",
+  "name": "Nagareyamanoku",
   "description": "nagareyama.yamanoku.net",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "repository": "https://github.com/yamanoku/Nagareyamanoku.git",
   "author": "yamanoku <0910yama@gmail.com>",
-  "dependencies": {
-    "@types/node": "^12.12.14",
-    "@types/react": "16.9.16",
-    "@types/react-dom": "16.9.4",
-    "@types/react-helmet": "5.0.14",
-    "dayjs": "1.8.18",
-    "gatsby": "^2.18.7",
-    "gatsby-link": "^2.2.25",
-    "gatsby-plugin-manifest": "2.2.33",
-    "gatsby-plugin-offline": "3.0.29",
-    "gatsby-plugin-react-helmet": "^3.1.16",
-    "gatsby-plugin-typescript": "^2.1.20",
-    "modern-normalize": "0.5.0",
-    "react-dom": "16.12.0",
-    "react-helmet": "5.2.1",
-    "yama-normalize": "0.0.6"
-  },
-  "keywords": [
-    "gatsby, typescript"
-  ],
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "dev": "gatsby develop",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "eleventy",
+    "dev": "eleventy --serve --quiet",
+    "debug": "DEBUG=Eleventy* eleventy"
   },
-  "devDependencies": {
-    "husky": "3.1.0",
-    "lint-staged": "9.5.0",
-    "prettier": "1.19.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "src/**/*.ts*": [
-      "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write",
-      "git add"
-    ]
+  "dependencies": {
+    "@11ty/eleventy": "0.9.0",
+    "clean-css": "4.2.1",
+    "dayjs": "1.8.17",
+    "eleventy-plugin-pwa": "1.0.8",
+    "html-minifier": "4.0.0",
+    "yama-normalize": "0.0.6"
   }
 }
