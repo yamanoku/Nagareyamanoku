@@ -1,0 +1,36 @@
+---
+layout: layout.njk
+title: Nagareyamanoku
+description: yamanokuが参考にする流山市にまつわるまとめページ
+---
+  <h2>情報まとめ</h2>
+  <section>
+    <h3>{{data.emergency.title}}</h3>
+    {%- for content in data.emergency.contents -%}
+      <h4>{{content.title}}</h4>
+      <a href="{{content.link_url}}" target="_blank" rel="noopener">
+        {{content.link_title}}
+      </a>
+    {%- endfor -%}
+  </section>
+  <section>
+    <h3>{{data.pediatrics.title}}</h3>
+    {%- for content in data.pediatrics.contents -%}
+      <h4>{{content.title}}</h4>
+      <a href="{{content.link_url}}" target="_blank" rel="noopener">
+        {{content.link_title}}
+      </a>
+    {%- endfor -%}
+  </section>
+  <section>
+    <h3>{{data.foods.title}}</h3>
+    <ul>
+    {%- for content in data.foods.contents -%}
+      <li>
+        <a href="{{content.link_url}}" target="_blank" rel="noopener">
+          {{content.link_title}}
+        </a>
+      </li>
+    {%- endfor -%}
+    </ul>
+  </section>
