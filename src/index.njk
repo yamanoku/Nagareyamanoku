@@ -34,3 +34,15 @@ description: yamanokuが参考にする流山市にまつわるまとめペー�
     {%- endfor -%}
     </ul>
   </section>
+  <section>
+    <h3>{{data.beautySalon.title}}</h3>
+    <ul>
+    {%- for content in data.beautySalon.contents -%}
+      <li>
+        <a href="{{content.link_url}}" target="_blank" rel="noopener">
+          {{content.link_title}}
+        </a>
+      </li>
+    {%- endfor -%}
+    </ul>
+  </section>

@@ -1,44 +1,53 @@
 {
-    "emergency": {
-        "title": "流山市避難所",
-        "contents": [
-            {
-                "title": "災害時",
-                "link_title": "#台風19号",
-                "link_url": "https://drive.google.com/open?id=16cTn1YHJ3EIk8iTyzRw_mmSav1u_yZPz&usp=sharing/"
-            },
-            {
-                "title": "ペット可能",
-                "link_title": "小山小学校",
-                "link_url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/003/605/oyamasaishin.pdf"
-            }
-        ]
-    },
-    "pediatrics": {
-        "title": "小児科まとめ",
-        "contents": [
-            {
-                "title": "夜間、休日・祝日",
-                "link_title": "流山市 平日夜間・休日診療所 / 流山市医師会",
-                "link_url": "http://www.nagareyama-med.com/practice/practice01.html"
-            }
-        ]
-    },
-    "foods": {
-        "title": "ご飯",
-        "contents": [
-            {
-                "link_title": "おおたかの森店（千葉県流山市市野谷）ステーキ・ハンバーグのブロンコビリー",
-                "link_url": "https://www.bronco.co.jp/shop/chiba/ootakanomori_ten/"
-            },
-            {
-                "link_title": "柏市　流山市　焼肉　焼肉みっちゃん｜ホーム",
-                "link_url": "http://www.y-micchan.com/"
-            },
-            {
-              "link_title": "魚べい 流山おおたかの森店",
-              "link_url": "http://u.genkisushi.jp/354/"
-            }
-          ]
-    }
+  "emergency": {
+    "title": "流山市避難所",
+    "contents": [
+      {
+        "title": "災害時",
+        "link_title": "#台風19号",
+        "link_url": "https://drive.google.com/open?id=16cTn1YHJ3EIk8iTyzRw_mmSav1u_yZPz&usp=sharing/"
+      },
+      {
+        "title": "ペット可能",
+        "link_title": "小山小学校",
+        "link_url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/003/605/oyamasaishin.pdf"
+      }
+    ]
+  },
+  "pediatrics": {
+    "title": "小児科まとめ",
+    "contents": [
+      {
+        "title": "夜間、休日・祝日",
+        "link_title": "流山市 平日夜間・休日診療所 / 流山市医師会",
+        "link_url": "http://www.nagareyama-med.com/practice/practice01.html"
+      }
+    ]
+  },
+  "foods": {
+    "title": "ご飯",
+    "contents": [
+      {
+        "link_title": "おおたかの森店（千葉県流山市市野谷）ステーキ・ハンバーグのブロンコビリー",
+        "link_url": "https://www.bronco.co.jp/shop/chiba/ootakanomori_ten/"
+      },
+      {
+        "link_title": "柏市　流山市　焼肉　焼肉みっちゃん｜ホーム",
+        "link_url": "http://www.y-micchan.com/"
+      },
+      {
+        "link_title": "魚べい 流山おおたかの森店",
+        "link_url": "http://u.genkisushi.jp/354/"
+      }
+    ]
+  },
+  "beautySalon": {
+    "title": "美容室・散髪",
+    "contents": [
+      {
+        "link_title": "カットファクトリー",
+        "link_url": "https://www.otakanomori-sc.com/shop/?id=260/"
+      }
+    ]
+  }
 }
