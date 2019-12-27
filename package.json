@@ -17,5 +17,8 @@
     "eleventy-plugin-pwa": "1.0.8",
     "html-minifier": "4.0.0",
     "yama-normalize": "0.0.6"
+  },
+  "devDependencies": {
+    "netlify-lambda": "1.6.3"
   }
 }
