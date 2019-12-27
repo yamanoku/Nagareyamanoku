@@ -7,6 +7,9 @@ yamanokuが参考にする流山市にまつわるまとめページ
 ## Development
 - [11ty](https://github.com/11ty/eleventy/)
 
+## API
+- https://nagareyama.yamanoku.net/api/data
+
 ## Contents
 - 流山市避難所
 - 小児科まとめ
