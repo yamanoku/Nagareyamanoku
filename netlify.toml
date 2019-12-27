@@ -1,5 +1,5 @@
 [build]
-  command = "yarn build-api"
+  command = "yarn build"
   functions = "functions" # netlify dev uses this to know where to scaffold and serve your functions
   publish = "dist"
 
