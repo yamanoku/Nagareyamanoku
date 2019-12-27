@@ -10,6 +10,14 @@ yamanokuが参考にする流山市にまつわるまとめページ
 ## API
 - https://nagareyama.yamanoku.net/api/data
 
+### parameters
+| keys |
+| --- |
+| emergency |
+| pediatrics |
+| foods |
+| beautySalon |
+
 ## Contents
 - 流山市避難所
 - 小児科まとめ
