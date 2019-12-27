@@ -10,7 +10,7 @@
     "dev": "eleventy --serve --quiet",
     "debug": "DEBUG=Eleventy* eleventy",
     "dev-api": "netlify-lambda serve ./src/_api",
-    "build-api": "netlify-lambda build ./src/_api"
+    "build-api": "netlify-lambda install ./src/_api"
   },
   "dependencies": {
     "@11ty/eleventy": "0.9.0",
