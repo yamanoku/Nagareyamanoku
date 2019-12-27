@@ -2,3 +2,11 @@
   command = "yarn build"
   functions = "functions"
   publish = "./dist"
+
+[dev]
+  command = "yarn dev"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
