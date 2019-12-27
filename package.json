@@ -8,7 +8,9 @@
   "scripts": {
     "build": "eleventy",
     "dev": "eleventy --serve --quiet",
-    "debug": "DEBUG=Eleventy* eleventy"
+    "debug": "DEBUG=Eleventy* eleventy",
+    "dev-api": "netlify-lambda serve ./src/_api",
+    "build-api": "netlify-lambda build ./src/_api"
   },
   "dependencies": {
     "@11ty/eleventy": "0.9.0",
