@@ -104,5 +104,10 @@ dist
 .tern-port
 
 dist
+
 # Local Netlify folder
 .netlify
+
+# data.json
+src/_data/data.json
+functions/data.json

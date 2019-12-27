@@ -6,11 +6,13 @@
   "author": "yamanoku <0910yama@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "eleventy && yarn build-api",
-    "dev": "eleventy --serve --quiet",
-    "debug": "DEBUG=Eleventy* eleventy",
-    "dev-api": "netlify-lambda serve ./functions",
-    "build-api": "netlify-lambda install ./functions"
+    "cp:11ty": "cp data.json ./src/_data",
+    "cp:netlify": "cp data.json ./functions",
+    "build": "yarn cp:11ty && eleventy && yarn build:lambda",
+    "dev": "yarn cp:11ty && eleventy --serve --quiet",
+    "debug": "yarn cp:11ty && DEBUG=Eleventy* eleventy",
+    "dev:lambda": "yarn cp:netlify && netlify-lambda serve ./functions",
+    "build:lambda": "yarn cp:netlify && netlify-lambda install ./functions"
   },
   "dependencies": {
     "@11ty/eleventy": "0.9.0",
