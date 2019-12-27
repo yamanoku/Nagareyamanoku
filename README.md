@@ -11,5 +11,6 @@ yamanokuが参考にする流山市にまつわるまとめページ
 - 流山市避難所
 - 小児科まとめ
 - ご飯まとめ
+- 美容室・散髪まとめ
 
 https://www.city.nagareyama.chiba.jp/
