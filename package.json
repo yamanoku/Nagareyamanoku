@@ -15,7 +15,7 @@
     "build:lambda": "yarn cp:netlify && netlify-lambda install ./functions"
   },
   "dependencies": {
-    "@11ty/eleventy": "0.9.0",
+    "@11ty/eleventy": "0.10.0",
     "clean-css": "4.2.1",
     "dayjs": "1.8.19",
     "eleventy-plugin-pwa": "1.0.8",
