@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "0.10.0",
-    "clean-css": "4.2.1",
+    "clean-css": "4.2.2",
     "dayjs": "1.8.19",
     "eleventy-plugin-pwa": "1.0.8",
     "html-minifier": "4.0.0",
