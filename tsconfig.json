@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "lib": ["es2015", "es2016", "dom"],
+    "outFile": "./",
+    "outDir": "./",
+    "rootDir": "./lib",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
