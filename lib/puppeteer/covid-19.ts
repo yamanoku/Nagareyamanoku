@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 const main = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({'timeout': 0});
   const page = await browser.newPage();
   const url: string = 'https://www.city.nagareyama.chiba.jp/information/1007525/1024556/1025141.html';
   await page.goto(url);
