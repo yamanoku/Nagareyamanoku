@@ -1,0 +1,22 @@
+name: scheduled_create_pr
+
+on:
+  schedule:
+    - cron: 0 9 * * *
+
+jobs:
+  create_pr:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout update branch
+      uses: actions/checkout@v1
+      with:
+        ref: update
+    - name: install hub
+      uses: geertvdc/setup-hub@v1.0.0
+    - name: create PR
+      env:
+        GITHUB_USER: ${{ secrets.GITHUB_USER }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        hub pull-request -b master -m "[Scheduled]update to master"
