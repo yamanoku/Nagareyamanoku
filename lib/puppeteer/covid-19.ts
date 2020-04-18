@@ -21,7 +21,12 @@ const main = async () => {
   const infectTextIndex: number = infectText.indexOf('流山市内居住者で新型コロナウイルス感染症の患者');
   const infectNum = infectText.slice(infectTextIndex).replace(/[^0-9]/g, '');
 
-  const filename = '../../src/_data/data.json';
+  let filename;
+  if (process.env.BUILD === '11ty') {
+    filename = '../../src/_data/data.json';
+  } else {
+    filename = '../../functions/data.json';
+  }
   const obj = JSON.parse(fs.readFileSync(path.join(__dirname, filename), 'utf-8'));
   obj.covid19.positive = Number(infectNum);
   fs.writeFileSync(path.join(__dirname, filename), JSON.stringify(obj));

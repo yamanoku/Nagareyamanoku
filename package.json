@@ -6,8 +6,8 @@
   "author": "yamanoku <0910yama@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "cp:11ty": "cp data.json ./src/_data",
-    "cp:netlify": "cp data.json ./functions",
+    "cp:11ty": "cp data.json ./src/_data && BUILD=11ty yarn puppeteer",
+    "cp:netlify": "cp data.json ./functions &&  BUILD=netlify yarn puppeteer",
     "build": "yarn cp:11ty && eleventy && yarn build:lambda",
     "dev": "yarn cp:11ty && eleventy --serve --quiet",
     "debug": "yarn cp:11ty && DEBUG=Eleventy* eleventy",
