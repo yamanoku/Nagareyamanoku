@@ -49,5 +49,8 @@
         "link_url": "https://www.otakanomori-sc.com/shop/?id=260"
       }
     ]
+  },
+  "covid19": {
+    "positive": 0
   }
 }
