@@ -5,6 +5,22 @@ description: yamanokuが参考にする流山市にまつわるまとめペー�
 ---
   <h2>情報まとめ</h2>
   <section>
+    <h3>COVID19</h3>
+    <h4>流山市陽性患者数</h4>
+    <p>
+      {{data.covid19.positive}}人
+    </p>
+    <p>
+      <small><time datetime={{day.today}}>※{{day.todayFormat}}現在</time></small><br>
+      <small>情報は<a href="https://www.city.nagareyama.chiba.jp/information/1007525/1024556/1025141.html" target="_blank" rel="noopener">流山市の公式ホームページ</a>よりスクレイピングしている。</small>
+    </p>
+    <h4>
+      <a href="https://covid19.civictech.chiba.jp/" target="_blank" rel="noopener">
+        千葉県新型コロナウイルス感染症対策サイト
+      </a>
+    </h4>
+  </section>
+  <section>
     <h3>{{data.emergency.title}}</h3>
     {%- for content in data.emergency.contents -%}
       <h4>{{content.title}}</h4>
