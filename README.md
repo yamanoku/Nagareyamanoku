@@ -17,11 +17,13 @@ yamanokuが参考にする流山市にまつわるまとめページ
 | pediatrics |
 | foods |
 | beautySalon |
+| covid19 |
 
 ## Contents
 - 流山市避難所
 - 小児科まとめ
 - ご飯まとめ
 - 美容室・散髪まとめ
+- COVID-19
 
 https://www.city.nagareyama.chiba.jp/
