@@ -16,3 +16,13 @@ footer {
   flex: 0 0 auto;
   text-align: center;
 }
+footer nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer nav a {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
