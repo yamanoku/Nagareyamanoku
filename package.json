@@ -22,7 +22,7 @@
     "dayjs": "1.8.28",
     "eleventy-plugin-pwa": "1.0.8",
     "html-minifier": "4.0.0",
-    "yama-normalize": "0.0.9"
+    "yama-normalize": "0.1.0"
   },
   "devDependencies": {
     "@types/expect-puppeteer": "4.4.3",
