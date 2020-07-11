@@ -19,7 +19,10 @@ module.exports = eleventyConfig => {
     }
     return content;
   });
-  eleventyConfig.addPlugin(pluginPWA);
+  eleventyConfig.addPlugin(pluginPWA, {
+    swDest: "./dist/service-worker.js",
+    globDirectory: "./dist"
+  });
   eleventyConfig.setBrowserSyncConfig({ ghostMode: false });
   return {
     dir: {
