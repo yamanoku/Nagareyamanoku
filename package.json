@@ -29,7 +29,7 @@
     "@types/jest": "26.0.13",
     "@types/jest-environment-puppeteer": "4.3.2",
     "@types/node": "13.13.17",
-    "@types/puppeteer": "3.0.1",
+    "@types/puppeteer": "3.0.2",
     "fs": "0.0.2",
     "jest": "26.4.2",
     "jest-puppeteer": "4.4.0",
