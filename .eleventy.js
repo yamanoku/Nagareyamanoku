@@ -1,6 +1,5 @@
 const htmlmin = require("html-minifier");
 const CleanCSS = require("clean-css");
-const pluginPWA = require("eleventy-plugin-pwa");
 
 module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy('src/icons');
@@ -18,10 +17,6 @@ module.exports = eleventyConfig => {
       return minified;
     }
     return content;
-  });
-  eleventyConfig.addPlugin(pluginPWA, {
-    swDest: "./dist/service-worker.js",
-    globDirectory: "./dist"
   });
   eleventyConfig.setBrowserSyncConfig({ ghostMode: false });
   return {

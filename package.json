@@ -20,7 +20,6 @@
     "@11ty/eleventy": "0.11.0",
     "clean-css": "4.2.3",
     "dayjs": "1.8.35",
-    "eleventy-plugin-pwa": "1.0.8",
     "html-minifier": "4.0.0",
     "yama-normalize": "0.0.11"
   },
@@ -35,8 +34,8 @@
     "jest-puppeteer": "4.4.0",
     "netlify-lambda": "2.0.1",
     "path": "0.12.7",
-    "puppeteer-core": "5.3.0",
     "puppeteer": "5.3.0",
+    "puppeteer-core": "5.3.0",
     "ts-jest": "26.3.0",
     "ts-node": "9.0.0",
     "typescript": "4.0.2"
