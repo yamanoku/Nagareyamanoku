@@ -17,7 +17,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@11ty/eleventy": "0.11.0",
+    "@11ty/eleventy": "0.11.1",
     "clean-css": "4.2.3",
     "dayjs": "1.9.3",
     "html-minifier": "4.0.0",
