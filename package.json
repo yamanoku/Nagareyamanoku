@@ -30,7 +30,7 @@
     "@types/node": "13.13.30",
     "@types/puppeteer": "3.0.4",
     "fs": "0.0.2",
-    "jest": "26.6.1",
+    "jest": "26.6.2",
     "jest-puppeteer": "4.4.0",
     "netlify-lambda": "2.0.1",
     "path": "0.12.7",
