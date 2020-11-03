@@ -1,10 +1,10 @@
 [build]
-  command = "yarn test && yarn build"
+  command = "npm run test && npm run build"
   functions = "functions"
   publish = "./dist"
 
 [dev]
-  command = "yarn dev"
+  command = "npm run dev"
 
 [[redirects]]
   from = "/api/*"
