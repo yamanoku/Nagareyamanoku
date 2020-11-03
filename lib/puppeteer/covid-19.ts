@@ -19,6 +19,7 @@ const main = async () => {
     throw Error('文字列が取得できませんでした');
   }
   let infectTextIndex: number;
+  // See: https://github.com/yamanoku/Nagareyamanoku/pull/262
   if (infectText.indexOf("・") !== -1) {
     infectTextIndex = infectText.indexOf("・");
   } else {
