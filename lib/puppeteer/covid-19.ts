@@ -18,7 +18,12 @@ const main = async () => {
     await browser.close();
     throw Error('文字列が取得できませんでした');
   }
-  const infectTextIndex: number = infectText.indexOf('流山市内居住者において新型コロナウイルス感染症の感染者');
+  let infectTextIndex: number;
+  if (infectText.indexOf("・") !== -1) {
+    infectTextIndex = infectText.indexOf("・");
+  } else {
+    infectTextIndex = infectText.indexOf('流山市内居住者において新型コロナウイルス感染症の感染者');
+  }
   const infectNum = infectText.slice(infectTextIndex).replace(/[^0-9]/g, '');
 
   let filename;
