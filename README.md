@@ -7,6 +7,20 @@ yamanokuが参考にする流山市にまつわるまとめページ
 ## Development
 - [11ty](https://github.com/11ty/eleventy/)
 
+```bash
+# install dependencies
+npm install
+
+# build 11ty
+npm run build
+
+# serve 11ty
+npm run dev
+
+# run jest
+npm run test
+```
+
 ## API
 - https://nagareyama.yamanoku.net/api/data
 
