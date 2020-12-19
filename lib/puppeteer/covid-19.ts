@@ -18,6 +18,7 @@ const main = async () => {
     await browser.close();
     throw Error('文字列が取得できませんでした');
   }
+  // See: https://github.com/yamanoku/Nagareyamanoku/pull/289
   const firstArrayString: string = infectText.split('。').filter(n => n)[0];
   let infectTextIndex: number;
   // See: https://github.com/yamanoku/Nagareyamanoku/pull/262
