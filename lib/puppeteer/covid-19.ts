@@ -18,14 +18,16 @@ const main = async () => {
     await browser.close();
     throw Error('文字列が取得できませんでした');
   }
+  // See: https://github.com/yamanoku/Nagareyamanoku/pull/289
+  const firstArrayString: string = infectText.split('。').filter(n => n)[0];
   let infectTextIndex: number;
   // See: https://github.com/yamanoku/Nagareyamanoku/pull/262
-  if (infectText.indexOf("・") !== -1) {
-    infectTextIndex = infectText.indexOf("・");
+  if (firstArrayString.indexOf("・") !== -1) {
+    infectTextIndex = firstArrayString.indexOf("・");
   } else {
-    infectTextIndex = infectText.indexOf('流山市内居住者において新型コロナウイルス感染症の感染者');
+    infectTextIndex = firstArrayString.indexOf('流山市内居住者において新型コロナウイルス感染症の感染者');
   }
-  const infectNum = infectText.slice(infectTextIndex).replace(/[^0-9]/g, '');
+  const infectNum = Number(firstArrayString.slice(infectTextIndex).replace(/[^0-9]/g, ''));
 
   let filename;
   if (process.env.BUILD === '11ty') {
@@ -34,7 +36,7 @@ const main = async () => {
     filename = '../../functions/data.json';
   }
   const obj = JSON.parse(fs.readFileSync(path.join(__dirname, filename), 'utf-8'));
-  obj.covid19.positive = Number(infectNum);
+  obj.covid19.positive = infectNum;
   fs.writeFileSync(path.join(__dirname, filename), JSON.stringify(obj));
 
   await browser.close();
