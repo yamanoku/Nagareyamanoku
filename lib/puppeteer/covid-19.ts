@@ -7,7 +7,7 @@ const main = async () => {
   const page = await browser.newPage();
   const url: string = 'https://www.city.nagareyama.chiba.jp/information/1007525/1024556/1025141.html';
   await page.goto(url);
-  const selector: string = '#voice > h2 + p';
+  const selector: string = '#voice > h2 + ul > li:nth-child(1)';
   const elementHandle = await page.$(selector);
   if (elementHandle === null) {
     await browser.close();
