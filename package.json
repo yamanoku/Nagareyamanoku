@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "0.11.1",
-    "clean-css": "4.2.3",
+    "clean-css": "5.0.1",
     "dayjs": "1.10.4",
     "html-minifier": "4.0.0",
     "yama-normalize": "0.0.11"
