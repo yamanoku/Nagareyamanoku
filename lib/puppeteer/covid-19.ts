@@ -13,7 +13,8 @@ const main = async () => {
     await browser.close();
     throw Error('要素が取得できませんでした');
   }
-  const infectText: unknown = await (await elementHandle.getProperty('textContent')).jsonValue();
+  const jsHandle = await elementHandle.getProperty('textContent');
+  const infectText: unknown = await jsHandle?.jsonValue();
   if (typeof infectText !== 'string') {
     await browser.close();
     throw Error('文字列が取得できませんでした');
