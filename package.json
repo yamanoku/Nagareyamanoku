@@ -19,7 +19,7 @@
   "dependencies": {
     "@11ty/eleventy": "0.12.1",
     "clean-css": "5.1.2",
-    "dayjs": "1.10.4",
+    "dayjs": "1.10.5",
     "html-minifier": "4.0.0",
     "yama-normalize": "0.0.11"
   },
