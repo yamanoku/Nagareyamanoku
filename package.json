@@ -32,7 +32,7 @@
     "fs": "0.0.2",
     "jest": "27.0.6",
     "jest-puppeteer": "5.0.4",
-    "netlify-lambda": "2.0.10",
+    "netlify-lambda": "2.0.11",
     "path": "0.12.7",
     "puppeteer": "10.1.0",
     "puppeteer-core": "10.1.0",
