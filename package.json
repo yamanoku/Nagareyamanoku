@@ -28,7 +28,7 @@
     "@types/jest": "26.0.24",
     "@types/jest-environment-puppeteer": "4.4.1",
     "@types/node": "14.17.5",
-    "@types/puppeteer": "5.4.3",
+    "@types/puppeteer": "5.4.4",
     "fs": "0.0.2",
     "jest": "27.0.6",
     "jest-puppeteer": "5.0.4",
